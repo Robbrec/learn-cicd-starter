@@ -72,6 +72,6 @@ func TestGetAPIKey(t *testing.T) {
             }
             if tc.expectError != nil && err != nil && tc.expectError.Error() != err.Error() {
                 t.Errorf("expected error %v, got %v", tc.expectError, err)
-            })
-        }
+            }
+        })
     }
