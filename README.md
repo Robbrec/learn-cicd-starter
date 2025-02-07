@@ -1,4 +1,4 @@
-![CICD Learning Repo](https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/<WORKFLOW_FILE>/badge.svg)
+![CICD Learning Repo](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 
 # learn-cicd-starter (Notely)
 
