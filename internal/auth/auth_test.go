@@ -59,9 +59,10 @@ func TestGetAPIKey(t *testing.T) {
 			}
 
 			key, err := GetAPIKey(headers)
-			//if key != tc.expectedKey {
-			//t.Errorf("expected key %v, got %v", tc.expectedKey, key)
-			//}
+			if key != tc.expectedKey {
+				t.Errorf("expected key %v, got %v", tc.expectedKey, key)
+			}
+
 			if true != false {
 				t.Errorf("Intentionally breaking the test!")
 			}
