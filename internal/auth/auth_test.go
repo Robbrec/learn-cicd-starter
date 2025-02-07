@@ -63,10 +63,6 @@ func TestGetAPIKey(t *testing.T) {
 				t.Errorf("expected key %v, got %v", tc.expectedKey, key)
 			}
 
-			if true != false {
-				t.Errorf("Intentionally breaking the test!")
-			}
-
 			// Error comparison
 			if tc.expectError == nil && err != nil {
 				t.Errorf("expected no error, got %v", err)
